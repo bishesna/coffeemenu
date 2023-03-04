@@ -1,0 +1,129 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.logo{
+    padding:19px 89px;
+    width:18%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.logo img{
+    height:50% ;
+    width :26% ;
+    border:2px solid white;
+    border-radius:49%;
+}
+.bar{
+    height: 30%;
+    display:flex;
+}
+.nav-list{
+    height: 30%;
+    width:60%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.nav-list li{
+    list-style: none;
+padding:26px 30px
+}
+.nav-list li a{
+text-decoration: none;
+color:aliceblue;
+}
+.right-nav{
+    padding:19px 30px;
+    width:40%; 
+    text-align: right;
+  background-color: black; 
+}
+.right-nav button{
+    text-align: right;
+      margin-right: 14%;
+      border:2px solid white;
+      background:none ;
+      color: aliceblue;
+      padding:8px 20px;
+      border-radius: 8px;
+      
+}
+H1{
+    position: absolute;
+    color:aliceblue;
+    top: 30%;
+    left: 73%;
+}
+.container{
+    color: aliceblue;
+    position: absolute;
+  top: 55%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  font-size:227%;
+}
+.about .topic{
+    margin-left: 27%;
+     font-size: 50px;
+     margin-top: 10%;
+     margin-bottom: 5%;
+}
+.first{
+    display: flex;
+}
+.firstimage{
+    width:30%;
+
+}
+.firstimage img{
+    height: 130px;
+    padding: 9px 74px;
+ margin-bottom:30px ;
+}
+.paragraphone p{
+margin-right: 170px;
+    
+
+}
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.secondimage{
+    width:30%;
+   
+     
+}
+.secondimage img{
+    height: 130px;
+    padding: 5px 5px;
+
+}
+
+.paragraphtwo p{
+    
+    margin-right: 170px;
+    margin-left: 135px;
+}
+.third .head{
+    font-size: 40px;
+}
+.mainmenu{
+    padding: 5px 27px;
+    display:flex;
+}
+.mainmenu .left{
+    width:50%;
+}
+.mainmenu li{
+    padding: 20px 5px;
+}
